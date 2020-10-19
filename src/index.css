@@ -1,13 +1,32 @@
+@font-face {
+  font-family: 'Spongeboy Me Bob Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Spongeboy Me Bob Regular'), url('Spongeboy Me Bob.woff') format('woff');
+  }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Spongeboy Me Bob Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.particles{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  z-index: -1;
 }

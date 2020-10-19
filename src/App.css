@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  background: linear-gradient(89deg, #fc2323 0% #141414 100%);
 }
+.center{
+    display: inline-block;
+    justify-content: center;
+}
+
 
 .App-logo {
   height: 40vmin;
