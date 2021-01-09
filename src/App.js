@@ -31,6 +31,11 @@ class App extends Component {
       signedIn: false,
     };
   }
+  componentDidMount(){
+    fetch('http://localhost:3000')
+    .then(response => response.json())
+    .then(data => console.log(data))
+  }
 
   //Any change in the input feild will get detetcted
   onInputChange = (event) => {
